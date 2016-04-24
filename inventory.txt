@@ -1,0 +1,7 @@
+ab:1
+ba:7
+meow:7
+abc:9
+acb:4
+bca:8
+kit:7

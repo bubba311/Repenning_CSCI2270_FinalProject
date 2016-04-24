@@ -1,0 +1,27 @@
+Project Summary:
+My project is an inventory of sorts. It reads a file with cooking ingredients or any items that you need to keep inventory of. You can add to your inventory, or you can add the quantity of your item or you can take away the quantity. It keeps track of the items you used until your completely remove it from the item list. Once you edited your inventory it will then save on the file it read. And then you can repeat the process if necessary. 
+
+How to Run:
+To rum you code you just need to compile the code and a menu will come up. Use the your number keys to navigate through the menu. Follow the menu intrusions.
+
+To compile go to your terminal. cd into folder with main.cpp sorting.cpp sorting.h  . Then input this in terminal: g++ main.cpp sorting.cpp
+Then a file call a.out will be made. To run enter in terminal: ./a.out
+
+
+Dependencies:
+There are no third-party libraries.
+
+System Requirements:
+Anything that can compile C++ . 
+
+Group Members:
+None
+
+Contributors:
+None
+
+Open issues/bugs:
+It’s not really a bug but don’t input letters for an input that takes numbers
+
+Something to note:
+the inventory.txt file is only an example. Contains random words.

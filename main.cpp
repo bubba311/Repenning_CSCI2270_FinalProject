@@ -15,7 +15,7 @@ int main() {
         string amount = "";
         string input = "";
         cin>>input;
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin.ignore(1000, '\n');
         if (input == "?") {
             inven.menu();
         }

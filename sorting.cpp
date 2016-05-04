@@ -126,7 +126,13 @@ void inventory::write_file() {
 
 void inventory::read_file() {
     string line;
-    ifstream myfile ("inventory.txt");
+    string File;
+    cout << "Enter the file name you wish to open or enter nothing to open inventory.txt" << endl;
+    getline(cin,File);
+    if (File == "") {
+        File = "inventory.txt";
+    }
+    ifstream myfile (File);
     if (myfile.is_open()) {
         while (getline(myfile,line)) {
             string title = "";
